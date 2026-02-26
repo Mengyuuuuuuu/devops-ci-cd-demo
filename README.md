@@ -20,8 +20,11 @@ This project is used as a DevOps demo application (CI → Docker → Kubernetes 
 
 ## Project Structure
 
+```text
 .
-├── .github/workflows/ci.yml
+├── .github/
+│   └── workflows/
+│       └── ci.yml
 ├── Dockerfile
 ├── app/
 │   ├── pom.xml
@@ -29,6 +32,7 @@ This project is used as a DevOps demo application (CI → Docker → Kubernetes 
 │   ├── src/
 │   └── target/
 └── README.md
+```
 
 --------------------------------------------------
 
